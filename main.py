@@ -3,22 +3,24 @@ import turtle
 ts = turtle.Screen()
 ts.bgcolor('skyblue')
 
+
+housing = turtle.Turtle()
 greenlight = turtle.Turtle()
 yellowlight = turtle.Turtle()
 redlight = turtle.Turtle()
 
 
 def draw_housing():
-    greenlight.pensize(3)
-    greenlight.color('black', 'black')
-    greenlight.begin_fill()
-    greenlight.forward(80)
-    greenlight.left(90)
-    greenlight.forward(157)
-    greenlight.circle(40, 180)
-    greenlight.forward(157)
-    greenlight.left(90)
-    greenlight.end_fill()
+    housing.pensize(3)
+    housing.color('black', 'black')
+    housing.begin_fill()
+    housing.forward(80)
+    housing.left(90)
+    housing.forward(157)
+    housing.circle(40, 180)
+    housing.forward(157)
+    housing.left(90)
+    housing.end_fill()
 
 
 draw_housing()
